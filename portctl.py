@@ -32,7 +32,7 @@ if args.v: print("Verbose Mode Selected")
 # Configuration... 
 #----------------------------------    
 conf_file = 'portctl_conf.json'
-Community = 'Bayview_SNMP_1234$'
+Community = open('./community_str','r').read().rstrip()
 loop_timer = 10
 delay_off_timer = 300
 
@@ -40,7 +40,7 @@ with open(conf_file) as data_file:
     pconf = json.load(data_file)
 
 if args.v: pp.pprint(pconf)
-
+if args.v: print("Community: {}".format(Community))
 #----------------------------------    
 # Define Functions... 
 #----------------------------------    
