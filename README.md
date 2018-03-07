@@ -17,3 +17,6 @@ to get list of processes.
 
 Supports only one option -v to print out more verbose output for 
 testing purposes. 
+
+New installation requires creating a file community_str.txt and add
+the community string to use for authentication with SNMP v2 

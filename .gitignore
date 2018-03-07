@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-community_str
+community_str.txt
 __pycache__/
 *.py[cod]
 *$py.class

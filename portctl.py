@@ -32,7 +32,7 @@ if args.v: print("Verbose Mode Selected")
 # Configuration... 
 #----------------------------------    
 conf_file = 'portctl_conf.json'
-Community = open('./community_str','r').read().rstrip()
+Community = open('./community_str.txt','r').read().rstrip()
 loop_timer = 10
 delay_off_timer = 300
 
