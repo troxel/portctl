@@ -1,0 +1,15 @@
+[Unit]
+Description=Control Ether Ports
+After=network.target
+ConditionPathExists=!/home/pi/portctl/portctl_not_to_be_run
+
+[Service]
+WorkingDirectory=/home/pi/portctl
+ExecStart=/home/pi/portctl/portctl.py
+KillMode=process
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+Alias=portctl.service

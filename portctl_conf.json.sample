@@ -1,10 +1,10 @@
 {
   "35":[
-         {"ip":"130.46.87.137","ports":[1,3]},
-         {"ip":"130.46.87.137","ports":[4]}
+         {"ip":"switch_ip.net","ports":[1,3]},
+         {"ip":"switch_ip.net","ports":[4]}
        ],
   "37":[
-         {"ip":"130.46.87.137","ports":[1,2]},
-         {"ip":"130.46.87.137","ports":[3]}
+         {"ip":"switch_ip.net","ports":[1,2]},
+         {"ip":"switch_ip.net","ports":[3]}
        ]
 }
